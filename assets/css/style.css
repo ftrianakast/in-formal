@@ -163,8 +163,15 @@ input {
 	background: white;
 	color: #2f2f2f;
 }
-
-
+.btn-info {
+	background: white;
+	color: #2f2f2f;
+	border: 2px solid #2f2f2f;
+}
+.btn-info:hover {
+	background: transparent;
+	color: #2f2f2f;
+}
 
 .dmbutton:hover,
 .dmbutton:active,
@@ -376,4 +383,71 @@ input {
 #h2 h3 {
 	margin-top: 30px;
 	letter-spacing: 1px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
+
+
+.custom-ordered-list {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+
+.custom-ordered-list li {
+    counter-increment: step-counter;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.custom-ordered-list li i {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+.custom-ordered-list li::before {
+    content: counter(step-counter);
+    margin-right: 15px;
+    font-size: 100%;
+    background-color: transparent;
+    color: #22a7f0;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+    border: 2px solid #22a7f0;
+}
+
+span.whats-app-icon {
+	color: #43d854;
+}
+
+.info-section {
+	margin-bottom: 50px;
+}
+
+.promo span {
+	font-size: 60px;
+}
+
+.promo .phone {
+	font-size: 30px;
+	margin-left: 10px;
 }
