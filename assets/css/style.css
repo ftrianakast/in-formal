@@ -208,7 +208,7 @@ input {
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
+	background: url(../img/header.png) no-repeat center top;
 	padding-top: 5px;
 	background-attachment: relative;
 	background-position: center center;
@@ -450,4 +450,14 @@ span.whats-app-icon {
 .promo .phone {
 	font-size: 30px;
 	margin-left: 10px;
+}
+
+.logo {
+	width: 100px;
+	height: 116px;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
 }
