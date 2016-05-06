@@ -208,7 +208,7 @@ input {
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.png) no-repeat center top;
+	background: url(../img/header.jpg) no-repeat center top;
 	padding-top: 5px;
 	background-attachment: relative;
 	background-position: center center;
@@ -231,7 +231,7 @@ input {
 #h .logo {
 	margin-top: 30px;
 	margin-left: 40px;
-	padding-bottom: 150px;
+	padding-bottom: 80px;
 }
 
 #h .logo h2{
@@ -452,12 +452,6 @@ span.whats-app-icon {
 	margin-left: 10px;
 }
 
-.logo {
-	width: 100px;
-	height: 116px;
-}
-
-.logo img {
-	width: 100%;
-	height: auto;
+#requestInfo .modal-header {
+	min-height: 50px !important;
 }
